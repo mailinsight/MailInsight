@@ -1,16 +1,22 @@
-## MailInsight Browser Extension
-## DeepFence
-<!--
-**mailinsight/MailInsight** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# MailInsight 🔐
 
-Here are some ideas to get you started:
+MailInsight is a browser extension and backend platform for real-time email threat detection, including:
+- Phishing detection
+- Spoofed sender warnings
+- Embedded threat analysis
+- Premium features and user login
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🔧 Tech Stack
+- Chrome Extension (HTML, JS, CSS)
+- Express.js + Node.js backend
+- MongoDB
+- JWT Auth
+- OpenAI API (for threat analysis)
+
+## 🚀 Setup Instructions
+```bash
+git clone https://github.com/mailinsight/MailInsight.git
+cd MailInsight
+npm install
+cd backend
+npm install
